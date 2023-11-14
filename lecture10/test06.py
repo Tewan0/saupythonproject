@@ -12,5 +12,5 @@ except Exception :
     print("ติดต่อ Admin 02555555...")
 finally :
     f_dti.close()    
- data = f_dti.readline() # อ่านทีละบรรทัด
+    data = f_dti.readline() # อ่านทีละบรรทัด
     print(data)
